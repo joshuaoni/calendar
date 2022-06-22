@@ -219,5 +219,6 @@ const Main = ({sunday, monday, tuesday, wednesday, thursday, friday, saturday}) 
         </section>
     );
 }
+
  
 export default Main;

@@ -4,9 +4,6 @@ import Calendar from './components/Calendar';
 import Handler from './components/Handler';
 import 'tachyons';
 
-// export const ACTIONS = {
-//   NEW_EVENT: 'new-event'
-// }
 
 const empty = [
     {id: 1, title: '', duration: ''},
@@ -213,8 +210,6 @@ function App() {
       default:
         break;
     }
-
-    console.log({sunday:sunday, i:i})
   }
 
   return (

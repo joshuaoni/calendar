@@ -12,7 +12,7 @@ const Handler = ({settingCell, sunday, monday, tuesday, wednesday, thursday, fri
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({start:Number(start.slice(0,2)), day:day,end: Number(end.slice(0,2))})
+    
     if (Number(start.slice(0,2)) >= Number(end.slice(0,2))) {
       setError('End time must be later than start time');
     } else {
